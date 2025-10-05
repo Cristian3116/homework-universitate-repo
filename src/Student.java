@@ -6,8 +6,6 @@ public class Student {
     public static void main(String[] args) {
 
         Scanner introducere = new Scanner(System.in);
-
-
         System.out.println("Intrare in program...");
         System.out.print("Introducere faculate (Matematica/Informatica):");
 
@@ -16,11 +14,6 @@ public class Student {
         String raspuns;
         String numeGrupa = " ";
         byte a = 0;
-        double nota1;
-        double nota2;
-        double notaExam;
-
-
 
         switch (denumFacult.toLowerCase()) {
 
@@ -44,9 +37,7 @@ public class Student {
                 {
                     System.out.println("Iesire din program");
                 }
-
                 break;
-
 
             case "informatica":
                 System.out.println("A fost aleasa facultatea de Informatica.");
@@ -63,12 +54,10 @@ public class Student {
                 else {
                     System.out.println("Iesire din program");
                 }
-
                 break;
 
             default:
                 System.out.println("Ati introdus o varianta greista.Iesire din program...");
-                return;
 
         }
 
@@ -137,7 +126,6 @@ public class Student {
             System.out.println("Ceva nu a mers bine.Iesire din program...");
 
         }
-
 
     }
 
